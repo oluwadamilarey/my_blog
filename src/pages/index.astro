@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Hi there</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,19 +41,25 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Hi there, I'm Oluwadamilare Abimbola a software engineer based in
+        Nigeria. Quick intro: I'd refer to myself as a brigde between the world
+        of engineering and art, i am well-versed in converting creative ideas
+        into well engineered products. I love engineering products whether be it
+        representing rough and untested ideas as carefully crafted products or
+        showcasing the beauty of simplicity through elegant and efficient
+        designs. With a passion for both technical and artistic aspects, I
+        strive to create solutions that not only function flawlessly but also
+        captivate the users with their aesthetic appeal.
       </p>
       <p>
-        Read the blog posts or check
-        <LinkButton
+        I try to document my interest and work in this blog, i do hope you have
+        a swell time on here
+        <!-- <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
           href="https://github.com/satnaing/astro-paper#readme"
         >
           README
-        </LinkButton> for more info.
+        </LinkButton> for more info. -->
       </p>
       {
         // only display if at least one social link is enabled
@@ -123,7 +129,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <style>
   /* ===== Hero Section ===== */
   #hero {
-    @apply pt-8 pb-6;
+    @apply pb-6 pt-8;
   }
   #hero h1 {
     @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
@@ -141,13 +147,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;
   }
   .social-links {
-    @apply mr-2 mb-1 whitespace-nowrap sm:mb-0;
+    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
   }
 
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
   #recent-posts {
-    @apply pt-12 pb-6;
+    @apply pb-6 pt-12;
   }
   #featured h2,
   #recent-posts h2 {
