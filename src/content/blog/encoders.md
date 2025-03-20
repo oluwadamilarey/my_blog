@@ -15,7 +15,7 @@ Demystifying Neural Networks: The Magic Behind Variational Autoencoders
 
 ## Ever Wondered How AI Can Create New Faces That Don't Actually Exist?
 
-Or how it can transform your pet photos into eye melting art? Behind many of these computer wizardry lies a clever piece of AI technology called a Variational Autoencoder (VAE). so come along now, let me try to break this down in a way that won't make your head spin!
+Or how it can transform your pet photos into eye melting art? Behind many of these computer wizardry lies a clever piece of AI technology called a Variational Autoencoder (VAE). so please come along now, let me try to break this down in a way that won't make your head spin!
 
 ## The Photography Darkroom Analogy
 
