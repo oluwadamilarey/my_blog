@@ -1,0 +1,3 @@
+[build.environment]
+  NODE_VERSION = "18.16.0"  # You can choose 18.x or 20.x
+  NPM_FLAGS = "--platform=linux --arch=x64"
